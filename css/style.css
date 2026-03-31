@@ -695,7 +695,11 @@ footer p{
     letter-spacing: 0.6;
 }
 .copy-text{
-    padding-left: 370px;
+    text-align: center;
+    margin-left: 337px;
+}
+.logo-footer{
+    padding-top: 60px;
 }
 .copy-logo,img{
     width: 100px;
