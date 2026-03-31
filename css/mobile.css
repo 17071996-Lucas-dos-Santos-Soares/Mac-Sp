@@ -436,7 +436,10 @@
     .tech-card img {
     width: 150px;
 }
-
+footer img{
+    width: 150px;
+    padding-top: 1px;
+}
 .small, small {
     font-size: .875em;
     text-align: center;
