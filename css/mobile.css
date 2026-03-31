@@ -28,7 +28,7 @@
     }
     
    .hero h1 {
-    width: 100%;
+    width: 130%;
     padding-left: 95px;
     padding-top: 300px;
     font-family: "Playdisfir Display", serif;
@@ -36,8 +36,7 @@
     font-size: 40px;
     font-weight: 600;
     color: #fff;
-    margin-left: 17px;
-    margin-right: 10px;
+    margin-left: -79px;
 }
 .hero p {
     font-family: "Raleway", sans-serif;
@@ -84,10 +83,15 @@
     
     .hero a {
         font-size: 1rem;
-        margin-left: 151px;
+        margin-left: 127px;
     }
-    .sobre-nos p{
-        width: 65%;
+   .sobre-nos p {
+        width: 100%;
+        text-align: left;
+        margin-left: 3px;
+    }
+    .frase a{
+        margin-left: 130px;
     }
     .btn-whatsapp{
         padding: 10px 15px;
@@ -122,13 +126,15 @@
         background: #000;
         margin-left: 10px;
     }
-    .card img {
-    width: 250px;
+    .card img {    
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
-    margin-left: 110px;
-    margin-right: 20px;
+    margin-left: 100px;
     margin-top: -58px;
-    height: 250px;
+}
+.call-area p{
+    font-size: 1rem;
 }
     .items-container-2{
         height: auto;
