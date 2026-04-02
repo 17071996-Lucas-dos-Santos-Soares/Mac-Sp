@@ -41,11 +41,15 @@
 .hero p {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
-    margin-left: -40px;
+    margin-left: -45px;
     color: #fff;
     font-weight: 300;
     text-align: center;
     width: 100%;
+    }
+    .hero a {
+        font-size: 1rem;
+        margin-left: 129px;
     }
     .escolha p {
     margin-right: 110px;
@@ -79,11 +83,6 @@
 }
     .hero-site .txt-hero p span {
         display: inline;
-    }
-    
-    .hero a {
-        font-size: 1rem;
-        margin-left: 151px;
     }
     .sobre-nos p{
         width: 65%;
