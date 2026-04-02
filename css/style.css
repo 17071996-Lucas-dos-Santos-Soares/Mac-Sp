@@ -263,7 +263,7 @@ header .menu-mobile.abrir{
 .hero h1{
     width: 54%;
     padding-left: 95px;
-    padding-top: 300px;
+    padding-top: 376px;
     font-family: "Playdisfir Display", serif;
     font-size: 60px;
     font-size: 4rem;
@@ -696,7 +696,7 @@ footer p{
 }
 .copy-text{
     text-align: center;
-    margin-left: 337px;
+    margin: 0;
 }
 .logo-footer{
     padding-top: 60px;
@@ -705,4 +705,9 @@ footer p{
     width: 100px;
     margin-top: -41px;
     margin-left: 20px;
+}
+
+/* animação */
+.txt1{
+   visibility: hidden;
 }
