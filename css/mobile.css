@@ -28,15 +28,14 @@
     }
     
    .hero h1 {
-    width: 130%;
+    width: 100%;
     padding-top: 300px;
     font-family: "Playdisfir Display", serif;
-    font-size: 60px;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
     font-weight: 600;
     color: #fff;
-    margin-left: -79px;
-    margin-right: 10px;
+    margin-left: -44px;
 }
 .hero p {
     font-family: "Raleway", sans-serif;
