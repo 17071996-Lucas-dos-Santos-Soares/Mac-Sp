@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Barlow Consend', sans-serif;
 }
+
+i{
+        text-align: center;
+        padding-top: 10px;
+    }
 hr{
   width: 200px;
   margin-left: auto;
@@ -82,7 +87,7 @@ header {
     top: 0;
     left: 0;
     transition: all .5s ease-in-out;
-    background: #ffffff27;
+    background: #6b553d29;
     z-index: 5;
 }
 
@@ -264,7 +269,7 @@ header .menu-mobile.abrir{
 .hero h1{
     width: 70%;
     padding-left: 98px;
-    padding-top: 318px;
+    padding-top: 218px;
     font-family: "Playdisfir Display", serif;
     font-size: 60px;
     font-size: 4rem;
@@ -486,8 +491,9 @@ header .menu-mobile.abrir{
   margin-left: auto;
   letter-spacing: 2px;
   margin-bottom: 0px;
-  display: inline;
+  display: block;
   height: 60px;
+  text-align: center;
   line-height: 60px;
   font-family: "Paly Disfir", serif;
 }
@@ -703,7 +709,5 @@ footer p{
     padding-top: 60px;
 }
 .copy-logo,img{
-    width: 100px;
-    margin-top: -41px;
-    margin-left: 20px;
+    width: 100%;
 }

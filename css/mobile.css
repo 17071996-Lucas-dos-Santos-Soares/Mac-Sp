@@ -7,7 +7,6 @@
         cursor: pointer;
     }
 }
-
 @media screen and (max-width:878px) {
     .hero {
         width: 100%;
@@ -51,13 +50,13 @@
         margin-left: 129px;
     }
     .escolha p {
-    margin-right: 110px;
+    width: 100%;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.6px;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 3px;
 }
 .frase h3 {
     text-align: center;
@@ -66,7 +65,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     padding-bottom: 20px;
-    width: 50%;
+    width: 400px;
     margin: 0 auto;
 }
 .frase a {
@@ -78,22 +77,29 @@
     text-align: center;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-    margin-left: 150px;
+    margin-left: 130px;
 }
     .hero-site .txt-hero p span {
         display: inline;
     }
     .sobre-nos p{
-        width: 65%;
+        width: 100%;
+        margin: -5px 5px;
     }
     .btn-whatsapp{
         padding: 10px 15px;
         margin-top: -10px;
     }
+    
+    i{
+        text-align: center;
+        padding-top: 10px;
+    }
     .card p {
+    width: 100%;
     font-size: 14px;
     text-align: center;
-    padding-left: 80px;
+    padding-left: 20px;
 }
 .btn-dark {
     border: none;
@@ -103,7 +109,7 @@
     text-align: center;
 }
 .card a {
-    margin-left: 143px;
+    margin-left: 120px;
     text-align: center;
 }
 .showroom p {
@@ -120,12 +126,11 @@
         margin-left: 10px;
     }
     .card img {
-    width: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin-left: 76px;
-    margin-right: 20px;
-    margin-top: -58px;
-    height: 250px;
+    margin-left: 100px;
+    margin-top: -10px;
 }
     .items-container-2{
         height: auto;
@@ -274,6 +279,7 @@
         transition: all .3s ease-in-out;
     }
     .card-title{
+    font-size: 18px;    
     font-weight: 300;
     font-family: "Raleway", sans-serif;
 }
@@ -406,10 +412,12 @@
     footer .footer-bottom p {
         font-size: 1rem;
     }
-    /* configurações para motos mobile */
+
     .card p{
         font-size: 14px;
         text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
     small.text-secondary{
         text-align: left;
