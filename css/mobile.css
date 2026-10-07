@@ -56,6 +56,9 @@
     .sobre-nos p{
         font-size: 15px;
     }
+    .escolha h2{
+        font-size: 1.7rem;
+    }
     .escolha p {
     width: 100%;
     font-family: "Raleway", sans-serif;
@@ -64,6 +67,9 @@
     letter-spacing: 0.6px;
     text-align: center;
     margin-left: 3px;
+}
+.trabalhamos h2{
+    font-size: 1.7rem;
 }
 .frase h3 {
     text-align: center;
@@ -118,6 +124,9 @@
 .card a {
     margin-left: 120px;
     text-align: center;
+}
+.showroom h2{
+    font-size: 1.7rem;
 }
 .showroom p {
         font-family: "Raleway", sans-serif;
@@ -305,8 +314,11 @@
         font-size: 1.125rem;
         padding-bottom: 2rem;
     }
+    .maps-forms, h2{
+        font-size: 1.7rem;
+    }
     .form h2 {
-    font-size: 3rem;
+    font-size: 1.7rem;
     text-align: center;
     color: #fff;
 }
