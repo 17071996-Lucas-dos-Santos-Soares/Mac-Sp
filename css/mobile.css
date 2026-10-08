@@ -322,6 +322,19 @@
     text-align: center;
     color: #fff;
 }
+.call-area{
+    width: 100%;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+.call-area p{
+width: 135%;
+margin-bottom: 75px;
+margin-left: -40px;
+}
+.call-area a{
+    margin-left: 87px;
+}
 .form h2 span {
     background: #ff8800;
     color: #fff;
