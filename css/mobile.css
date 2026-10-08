@@ -39,7 +39,7 @@
 .hero p {
     width: 120%;
     font-family: "Raleway", sans-serif;
-    font-size: 1rem;
+    font-size: 14px;
     margin-left: -25%;
     color: #fff;
     font-weight: 300;
@@ -50,14 +50,14 @@
         margin-left: 129px;
     }
     .sobre-nos h2{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     .sobre-nos p{
-        font-size: 15px;
+        font-size: 14px;
     }
     .escolha h2{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     .escolha p {
     width: 100%;
@@ -69,7 +69,7 @@
     margin-left: 3px;
 }
 .trabalhamos h2{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .frase h3 {
     text-align: center;
@@ -97,7 +97,8 @@
     }
     .sobre-nos p{
         width: 100%;
-        margin: -5px 5px;
+        font-size: 14px;
+        margin: -10px 10px;
     }
     .btn-whatsapp{
         padding: 10px 15px;
@@ -126,11 +127,11 @@
     text-align: center;
 }
 .showroom h2{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .showroom p {
         font-family: "Raleway", sans-serif;
-        font-size: 1rem;
+        font-size: 14px;
         margin-left: 37px;
         color: #000;
         font-weight: 300;
@@ -253,7 +254,7 @@
 
     .hoteis p {
         margin: 20px 0px;
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .txt-funciona,.instrucoes {
@@ -318,7 +319,7 @@
         font-size: 1.7rem;
     }
     .form h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #fff;
 }
