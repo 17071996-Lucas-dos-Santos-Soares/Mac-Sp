@@ -508,7 +508,6 @@ header .menu-mobile.abrir{
   border-radius: 40px;
   text-decoration: none;
   transition: all 0.2s;
-  margin-left: 600px;
   margin-top: -120px;
 }
 
@@ -549,7 +548,7 @@ header .menu-mobile.abrir{
     color: #ffffffe5;
     border-radius: 30px;
     transition: all 0.2 ease-in-out;
-    margin-left: 73px;
+    margin-left: 30px;
 }
 .card a:hover{
     background: #000000d0;
