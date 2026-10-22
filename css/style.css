@@ -548,7 +548,7 @@ header .menu-mobile.abrir{
     color: #ffffffe5;
     border-radius: 30px;
     transition: all 0.2 ease-in-out;
-    margin-left: 30px;
+    margin-left: 68px;
 }
 .card a:hover{
     background: #000000d0;
@@ -557,7 +557,7 @@ header .menu-mobile.abrir{
     transition: all 0.2 ease-in-out;
 }
 .card img{
-    width: 20%;
+    width: 300px;
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
