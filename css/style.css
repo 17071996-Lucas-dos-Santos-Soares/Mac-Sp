@@ -388,9 +388,10 @@ header .menu-mobile.abrir{
 
 .card-body{
     width: 100%;
-    height: 200px;
+    height: auto;
     border: none;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .card-title{
