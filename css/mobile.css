@@ -54,7 +54,9 @@
     }
 
     .sobre-nos p{
-        font-size: 14px;
+        font-size: 1rem;
+        line-height: 21px;
+        padding-top: 10px;
     }
     .escolha h2{
         font-size: 1.4rem;
