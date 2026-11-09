@@ -267,16 +267,21 @@ header .menu-mobile.abrir{
 }
 
 .hero h1{
-    width: 70%;
-    padding-left: 98px;
-    padding-top: 218px;
+    width: 60%;
+    padding-left: 123px;
+    padding-top: 248px;
     font-family: "Playdisfir Display", serif;
     font-size: 60px;
     font-size: 4rem;
     font-weight: 600;
     color: #ffffffe6;
 }
-
+.hero-subtitle {
+    background-color: #9b754d65;
+    font-family: "Playdisfir Display", serif;
+    text-shadow: 2px 2px 2px #00000080;
+    padding: 8px;
+}
 .hero p{
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
