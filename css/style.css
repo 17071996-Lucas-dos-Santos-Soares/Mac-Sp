@@ -259,7 +259,7 @@ header .menu-mobile.abrir{
 .hero{
     width: 100%;
     height: 98vh;
-    background-image: linear-gradient(135deg,#00000080,#00000080),url(../img/banner/banner-home-pc.png);
+    background-image: linear-gradient(135deg,#00000066,#00000066),url(../img/banner/banner-pc-final.png);
     background-size: 100%, 100%;
     background-position: left, center;
     background-repeat: no-repeat;
@@ -268,8 +268,8 @@ header .menu-mobile.abrir{
 
 .hero h1{
     width: 60%;
-    padding-left: 123px;
-    padding-top: 248px;
+    padding-left: 173px;
+    padding-top: 80px;
     font-family: "Playdisfir Display", serif;
     font-size: 60px;
     font-size: 4rem;
@@ -277,10 +277,11 @@ header .menu-mobile.abrir{
     color: #ffffffe6;
 }
 .hero-subtitle {
-    background-color: #9b754d65;
+    color:#e8bb7b;
     font-family: "Playdisfir Display", serif;
     text-shadow: 2px 2px 2px #00000080;
     padding: 8px;
+    font-weight: 300;
 }
 .hero p{
     font-family: "Raleway", sans-serif;
@@ -401,17 +402,79 @@ header .menu-mobile.abrir{
     border-radius: 10px;
 }
 
+.card-body p {
+    color: #000;
+}
+.card-1,.card-2,.card-3,.card-4,.card-5,.card-teste,.card-6,.card-7,.card-8 {
+    width: 100%;
+    height: 200px;
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/Briefing-e-medição.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.card-2 {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/projeto-personalizado.png");
+}
+.card-3 {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/fabricacao.png");
+}
+
+.card-4 {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/instalacao.png");
+}
+
+.card-5 {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/quarto-princesa.png");
+}
+
+.card-teste {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/suite-master-fundo.png");
+}
+
+.card-6 {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/suite-master-fundo.png");
+}
+
+.card-7 {
+    background-image:
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/cozinha-planejada.png");
+}
+
+.card-8 {
+    background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/card-img/paine-tv.png");
+}
 .card-title{
     font-family: "Play Disfir", serif;
     font-size: 20px;
     text-align: center;
+    color: #fff;
 }
 
-.card-text,p{
+.card-text p{
     font-family: "Raleway" sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-align: left;
+    color: #fff;
 }
 
 .btn-dark{
@@ -465,7 +528,7 @@ header .menu-mobile.abrir{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    margin-left: 600px;
+    margin-left: 480px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -565,19 +628,26 @@ header .menu-mobile.abrir{
     transition: all 0.2 ease-in-out;
 }
 .card img{
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 2px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 0 auto;
     opacity: 0.9;
     box-shadow: 2px 2px 2px #fff;
+    opacity: 0.8;
+    margin-left: 100px;
+    transition: all 0.2s ease-in-out;
+    object-fit: cover;
+}
+.card img:hover {
+    transition: all 0.2s ease-in-out;
+    border-radius: 30px;
 }
 .back-quarto-princesa{
     width: 100%;
-    height: 100%;
+    height: 200px;
     background-image: linear-gradient(#0000004d, #0000004d), 
-    url(../img/quarto-princesa/quarto-1.webp);
+    url(../img/card-img/quarto-princesa-fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%, 100%;    
@@ -586,7 +656,7 @@ header .menu-mobile.abrir{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#0000004d, #0000004d), 
-    url(../img/suite-master/suite-1.webp);
+    url(../img/card-img/suite-master-fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%, 100%;
@@ -595,7 +665,7 @@ header .menu-mobile.abrir{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#0000004d, #0000004d), 
-    url(../img/cozinha/cozinha-1.webp);
+    url(../img/card-img/cozinha-planejada.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%, 100%;
@@ -604,7 +674,7 @@ header .menu-mobile.abrir{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#0000004d, #0000004d), 
-    url(../img/sala-estar/sala-1.webp);
+    url(../img/card-img/paine-tv.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%, 100%;
