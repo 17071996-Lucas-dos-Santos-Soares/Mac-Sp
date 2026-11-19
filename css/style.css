@@ -480,7 +480,11 @@ header .menu-mobile.abrir{
     text-align: left;
     color: #fff;
 }
-
+h5.back-shadow {
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    text-align: center;
+}
 .btn-dark{
     border: none;
     background: #333;
