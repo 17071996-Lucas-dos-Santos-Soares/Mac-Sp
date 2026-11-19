@@ -17,6 +17,14 @@
         padding-top: 214px;
         padding-left: 98px;
     }
+
+    .frase a{
+        margin-left: 481px;
+    }
+
+    .card a{
+        margin-left: 9px;
+    }
 }
 @media screen and (max-width:878px) {
     .hero {
